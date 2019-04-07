@@ -4,6 +4,8 @@ import faker from 'faker';
 
 const CommentDetail = props => {
     return (
+
+        //react
         <div className="comment">
             <a href="/" className="avatar">
                 <img alt="avatar" src={faker.image.avatar()} />
